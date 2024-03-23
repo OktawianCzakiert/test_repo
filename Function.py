@@ -6,6 +6,7 @@ Przykładowa lista: [1, [2, 3, [4, [5, 6], 7]], 8, 9, [[10]]]
 Oczekiwany wynik: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 """
 
+
 def flatten_list(lst):
     new_list = []
     for element in lst:
